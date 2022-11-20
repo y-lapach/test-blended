@@ -1,0 +1,41 @@
+.gifts {
+  background-color: $whiteColor;
+}
+
+.gifts-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.gifts-title {
+  font-size: 32px;
+  line-height: 1.18;
+  color: $mainColor;
+  margin-bottom: 23px;
+}
+
+.gifts-text {
+  font-size: 18px;
+  line-height: 135.94%;
+  color: $mainColor;
+  margin-bottom: px;
+}
+
+.gifts-list {
+  display: flex;
+  gap: 30px;
+}
+
+.holiday-title {
+  font-size: 20px;
+  line-height: 1.2;
+  color: $mainColor;
+}
+
+.holiday-button {
+  font-size: 14px;
+  line-height: 19px;
+  color: $mainColor;
+}

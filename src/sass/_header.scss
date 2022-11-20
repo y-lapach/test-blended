@@ -1,8 +1,4 @@
-// Header
-// .page-header {
-// }
-// .container {
-// }
+
 .logo-header {
 font-family: 'Homemade Apple';
 font-weight: 400;
@@ -11,25 +7,24 @@ line-height: 2.16;
 
 color: #231F20;
 }
-.site-nav-list {
+.site-nav-list-header {
 display: flex;
 }
-.item {
+.item-header {
 gap: 31px;
-
-font-family: 'Gilroy';
 font-size: 18px;
 line-height: 1.22;
 
 color: #000000;
 }
-
-// .link {
-// }
-.button {
-font-family: 'Gilroy';
+.button-header {
 font-size: 18px;
 line-height: 1.22;
+margin-top: 13px;
+margin-bottom: 13px;
 
 color: #F7941E;
+border: 1px solid #F7941E;
+background-color: transparent;
+border-radius: 5px;
 }

@@ -44,6 +44,10 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+}
 
 .logo-header {
   font-family: "Homemade Apple";
@@ -55,6 +59,17 @@ img {
 
 .site-nav-list-header {
   display: flex;
+  margin-right: 433px;
+  color: #231F20;
+}
+
+.navigation-header {
+  margin-right: auto;
+}
+
+.site-nav-list-header {
+  display: flex;
+  gap: 31px;
 }
 
 .item-header {
@@ -62,6 +77,10 @@ img {
   font-size: 18px;
   line-height: 1.22;
   color: #000000;
+}
+
+.link-header:hover, .link-header:focus {
+  color: #F7941E;
 }
 
 .button-header {
@@ -73,6 +92,7 @@ img {
   border: 1px solid #F7941E;
   background-color: transparent;
   border-radius: 5px;
+  margin-right: 34px;
 }
 
 .together-card {

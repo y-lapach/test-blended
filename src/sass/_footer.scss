@@ -1,9 +1,12 @@
 footer {
     background-color: $headerBgColor;
+    padding-bottom: 35px;
 }
 .footer-socials {
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin-bottom: 72.8px;
 }
 
 .footer-item:not(:last-child) {
@@ -29,4 +32,12 @@ footer {
 
 .footer-icon {
     fill: currentColor;
+}
+.footer-terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright {
+    margin-right: 14px;
 }

@@ -8,11 +8,14 @@
     height: 370px;
 
     margin-bottom: 40px;
+    margin: 0 auto;
 
 }
 
 
 .blogs-title {
+
+    font-weight: 400;
     
     color: $mainColor;
 
@@ -23,8 +26,7 @@
 
     margin-top: 88px;
     margin-bottom: 23px;
-    
-    
+
 }
 
 .blogs-text {
@@ -39,9 +41,6 @@
     margin-bottom: 71px;
     
 }
-
-
-
 
 .blogs-name {
         
@@ -63,7 +62,6 @@
 
     margin-bottom: 60px;
 
-
 }
 
 .blogs-link {
@@ -73,14 +71,13 @@
     font-size: 18px;
     line-height: 1.38;
 
-    
-
 }
 
 .blogs-wrapper {
     
     padding-top: 63px;
     padding-left: 78px;
+
 }
 
 

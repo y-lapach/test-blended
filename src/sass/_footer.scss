@@ -1,0 +1,32 @@
+footer {
+    background-color: $headerBgColor;
+}
+.footer-socials {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--main-icons-color);
+    transition: color var(--transition-time), background-color var(--transition-time);
+
+        &:hover,
+        &:focus {
+            color: var(--primary-white);
+            background-color: var(--accent-color);
+        }
+}
+
+.footer-icon {
+    fill: currentColor;
+}

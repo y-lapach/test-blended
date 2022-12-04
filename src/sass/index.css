@@ -48,6 +48,9 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  min-width: 1440px;
+  min-height: 116px;
+  background-color: #fff;
 }
 
 .logo-header {
@@ -55,8 +58,8 @@ img {
   font-weight: 400;
   font-size: 18px;
   line-height: 2.16;
-  margin-right: 433px;
   color: #231F20;
+  margin-left: 80px;
 }
 
 .navigation-header {
@@ -66,6 +69,8 @@ img {
 .site-nav-list-header {
   display: flex;
   gap: 31px;
+  margin-right: 375px;
+  margin-left: 433px;
 }
 
 .item-header {
@@ -82,8 +87,9 @@ img {
 .button-header {
   font-size: 18px;
   line-height: 1.22;
-  margin-top: 13px;
-  margin-bottom: 13px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  cursor: pointer;
   color: #F7941E;
   border: 1px solid #F7941E;
   background-color: transparent;

@@ -1,3 +1,11 @@
+.blog-list-our-best {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.container-blog-list-our-best {
+  margin: 0 auto;
+}
+
 .blog-list {
   display: flex;
   gap: 30;
@@ -24,4 +32,8 @@
   font-size: 14px;
   line-height: 1.4;
   color: $mainColor;
+  &:hover,
+  &:focus {
+    color: $orangeColor;
+  }
 }

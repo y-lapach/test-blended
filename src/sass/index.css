@@ -45,16 +45,38 @@ img {
   overflow: hidden;
 }
 
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  min-width: 1440px;
+  min-height: 116px;
+  background-color: #fff;
+}
+
 .logo-header {
   font-family: "Homemade Apple";
   font-weight: 400;
   font-size: 18px;
   line-height: 2.16;
   color: #231F20;
+  margin-left: 80px;
+}
+
+.navigation-header {
+  margin-right: auto;
 }
 
 .site-nav-list-header {
   display: flex;
+  gap: 31px;
+  margin-right: 375px;
+  margin-left: 433px;
 }
 
 .item-header {
@@ -64,15 +86,21 @@ img {
   color: #000000;
 }
 
+.link-header:hover, .link-header:focus {
+  color: #F7941E;
+}
+
 .button-header {
   font-size: 18px;
   line-height: 1.22;
-  margin-top: 13px;
-  margin-bottom: 13px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  cursor: pointer;
   color: #F7941E;
   border: 1px solid #F7941E;
   background-color: transparent;
   border-radius: 5px;
+  margin-right: 34px;
 }
 
 .together-card {
@@ -118,6 +146,86 @@ img {
   height: 60px;
   color: #ffffff;
   background-color: #F7941E;
+}
+
+.container {
+  width: 1440px;
+  margin: auto;
+  display: flex;
+}
+
+.second-page {
+  padding-left: 112px;
+  padding-top: 164px;
+  padding-right: 413px;
+  padding-bottom: 227px;
+}
+
+.title-of-work {
+  font-size: 32px;
+  line-height: 45px;
+  color: #000000;
+  margin-bottom: 23px;
+}
+
+.work-text-title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.work-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Roboto" sans-serif;
+  border: 1px solid #F7941E;
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+  color: #F7941E;
+  background-color: #f1f1f2;
+}
+
+.thanks-image {
+  width: 733px;
+  height: 618px;
+}
+
+.blog-list {
+  display: flex;
+  gap: 30;
+}
+
+.blog-iteam {
+  padding-top: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 50px;
+}
+
+.blog-title {
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.blog-text {
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.blog-link {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000000;
 }
 
 .gifts {
@@ -190,12 +298,13 @@ img {
 .blogs-wrap {
   display: flex;
   background-color: #231f20;
-  width: 1170px;
-  height: 370px;
+  margin-bottom: 40px;
+  margin: 0 auto;
   margin-bottom: 40px;
 }
 
 .blogs-title {
+  font-weight: 400;
   color: #000000;
   font-size: 32px;
   line-height: 1.18;
@@ -221,6 +330,7 @@ img {
 
 .blogs-post-title {
   color: #ffffff;
+  color: #ffffff;
   font-size: 48px;
   line-height: 1.2;
   margin-bottom: 60px;
@@ -235,4 +345,120 @@ img {
 .blogs-wrapper {
   padding-top: 63px;
   padding-left: 78px;
+}
+
+.ready {
+  background-color: #F7941E;
+  padding: 81px 235px 69px 235px;
+  display: flex;
+  gap: 229px;
+}
+
+.ready__title {
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+.ready__text {
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+.ready__list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ready__button {
+  width: 200px;
+  height: 48px;
+  padding: 17px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: #231F20;
+  color: #ffffff;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+}
+
+.ready__button--transparent {
+  background-color: transparent;
+  color: #000000;
+}
+
+footer {
+  background-color: #fafafa;
+  padding-top: 115px;
+  padding-bottom: 35px;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 55.8px;
+  padding-bottom: 53px;
+  border-bottom: 1px solid #000000;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list > li:not(:last-child) {
+  margin-right: 81px;
+}
+
+.logo {
+  display: block;
+  margin-left: 141px;
+  margin-right: 141px;
+  font-family: "Homemade Apple";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2.16;
+}
+
+.logo--orange {
+  color: #F7941E;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 72.8px;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.footer-icon {
+  fill: currentColor;
+}
+
+.footer-terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  margin-right: 14px;
 }/*# sourceMappingURL=index.css.map */

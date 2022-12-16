@@ -3,14 +3,15 @@
 
   background-color: #231f20;
 
-  width: 1170px;
-  height: 370px;
+  margin-bottom: 40px;
+  margin: 0 auto;
 
   margin-bottom: 40px;
 }
 
 .blogs-title {
-  color: #000000;
+  font-weight: 400;
+  color: $mainColor;
   font-size: 32px;
   line-height: 1.18;
   text-align: center;
@@ -41,6 +42,8 @@
 .blogs-post-title {
   color: #ffffff;
 
+  color: $whiteColor;
+
   font-size: 48px;
   line-height: 1.2;
 
@@ -48,7 +51,7 @@
 }
 
 .blogs-link {
-  color: #ffffff;
+  color: $whiteColor;
 
   font-size: 18px;
   line-height: 1.38;

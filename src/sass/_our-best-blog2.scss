@@ -9,6 +9,8 @@
 .blog-list {
   display: flex;
   gap: 30;
+  width:1170px;
+  margin:0 auto;
 }
 .blog-iteam {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
@@ -19,7 +21,6 @@
   
 }
 .blog-title {
-  width: 570px;
   margin-bottom: 16px;
   font-size: 24px;
   line-height: 1.4;

@@ -80,16 +80,24 @@ img {
   color: #000000;
 }
 
+.link-header {
+  font-family: "Gilroy";
+  font-size: 18px;
+  line-height: 1.2222222222;
+}
 .link-header:hover, .link-header:focus {
   color: #F7941E;
 }
 
 .button-header {
+  font-family: "Gilroy";
   font-size: 18px;
   line-height: 1.22;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding: 13px 20px;
   cursor: pointer;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
   color: #F7941E;
   border: 1px solid #F7941E;
   background-color: transparent;

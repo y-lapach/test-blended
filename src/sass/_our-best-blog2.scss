@@ -11,12 +11,15 @@
   gap: 30;
 }
 .blog-iteam {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
   padding-top: 48px;
   padding-left: 48px;
   padding-right: 48px;
   padding-bottom: 50px;
+  
 }
 .blog-title {
+  width: 570px;
   margin-bottom: 16px;
   font-size: 24px;
   line-height: 1.4;
@@ -37,3 +40,6 @@
     color: $orangeColor;
   }
 }
+
+
+ 

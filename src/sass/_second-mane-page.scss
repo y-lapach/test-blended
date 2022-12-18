@@ -1,51 +1,42 @@
-.container{
-width: 1440px;
-margin: auto;
-display: flex;
+.secon-page {
 background-color: $firstBgColor;
 }
 
-.second-page{
-padding-left: 112px;
-padding-top: 164px;
-padding-right: 413px;
-padding-bottom: 227px;
+.container-sec {
+  
+  display: flex;
+ 
 }
 
-.title-of-work{
-font-size: 32px;
-line-height: 45px;
-color: $mainColor;
-margin-bottom: 23px;
+.second-page {
+  padding-left: 112px;
+  padding-top: 164px;
+  padding-right: 166px;
+  padding-bottom: 97px;
 }
 
-.work-text-title{
-font-size: 20px;
-line-height: 28px;
-color: $mainColor;
-width: 440px;
-padding-left: 112px;
-padding-top: 232px;
-margin-bottom: 35px;
+.title-of-work {
+  font-size: 32px;
+  line-height: 45px;
+  color: $mainColor;
+  margin-bottom: 23px;
 }
 
-.work-button{
-display: flex;
-align-items: center;
-justify-content: center;
-text-transform: uppercase;
-font-size: 18px;
-line-height: 24px;
-font-family: 'Roboto' sans-serif;
-border: 1px solid #F7941E;
-border-radius: 5px;
-width: 200px;
-height: 60px;
-color: $orangeColor;
-background-color: $firstBgColor;
+.work-text-title {
+  font-size: 20px;
+  line-height: 28px;
+  color: $mainColor;
+  
+  margin-bottom: 35px;
 }
 
-.thanks-image{
-width: 733px;
-height: 618px;
+.work-button {
+  border: 1px solid #f7941e;
+  color: $orangeColor;
+  background-color: $firstBgColor;
+}
+
+.thanks-image {
+  width: 722px;
+  height: 618px;
 }

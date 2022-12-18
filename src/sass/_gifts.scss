@@ -4,10 +4,6 @@
   background-color: $whiteColor;
 }
 
-.gifts-container {
-  width: 1440px;
-  margin: 0 auto;
-}
 
 .gifts-title {
   font-size: 32px;
@@ -31,24 +27,34 @@
   gap: 30px;
 }
 
+.gifts-item {
+  background-color: $headerBgColor;
+  transition: background-color 250ms linear;
+}
+
+.gifts-item .gifts-link:hover,
+.gifts-item .gifts-link:focus {
+
+  background-color: $whiteColor;
+}
+
 .gifts-link {
   display: block;
   text-decoration: none;
-  transition: box-shadow 250ms linear, color 250ms linear;
+  transition: box-shadow 250ms linear;
   color: $headerBgColor;
 }
 
 .gifts-link:hover,
 .gifts-link:focus {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
-  color: $whiteColor;
 }
+
+
 
 .gifts-border {
   padding: 24px;
-  border-right: 1px solid $headerBgColor;
-  border-bottom: 1px solid $headerBgColor;
-  border-left: 1px solid $headerBgColor;
+
 }
 
 .holiday-title {

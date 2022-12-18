@@ -1,12 +1,17 @@
+.blogs {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
 .blogs-wrap {
   display: flex;
 
+  width: 1170px;
+
   background-color: #231f20;
 
-  margin-bottom: 40px;
   margin: 0 auto;
 
-  margin-bottom: 40px;
 }
 
 .blogs-title {
@@ -15,7 +20,6 @@
   font-size: 32px;
   line-height: 1.18;
   text-align: center;
-  margin-top: 88px;
   margin-bottom: 23px;
 }
 
@@ -43,7 +47,7 @@
   color: #ffffff;
 
   color: $whiteColor;
-
+  font-weight: 300;
   font-size: 48px;
   line-height: 1.2;
 

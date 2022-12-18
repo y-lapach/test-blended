@@ -1,15 +1,18 @@
-.container {
-  width: 1440px;
-  margin: auto;
+.secon-page {
+background-color: $firstBgColor;
+}
+
+.container-sec {
+  
   display: flex;
-  background-color: $firstBgColor;
+ 
 }
 
 .second-page {
   padding-left: 112px;
   padding-top: 164px;
-  padding-right: 413px;
-  padding-bottom: 227px;
+  padding-right: 166px;
+  padding-bottom: 97px;
 }
 
 .title-of-work {
@@ -23,9 +26,7 @@
   font-size: 20px;
   line-height: 28px;
   color: $mainColor;
-  width: 440px;
-  padding-left: 112px;
-  padding-top: 232px;
+  
   margin-bottom: 35px;
 }
 
@@ -36,6 +37,6 @@
 }
 
 .thanks-image {
-  width: 733px;
+  width: 722px;
   height: 618px;
 }

@@ -28,17 +28,7 @@
 }
 
 .hero-bth {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  line-height: 1.22;
   border: none;
-  border-radius: 5px;
-  min-width: 200px;
-  height: 60px;
   color: $whiteColor;
   background-color: $orangeColor;
 }

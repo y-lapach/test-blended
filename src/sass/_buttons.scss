@@ -1,0 +1,22 @@
+.buttons-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 200px;
+  height: 60px;
+  text-transform: uppercase;
+  transition-property: background-color, color;
+  transition-duration: 450ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: orange;
+    color: #FFFFFF;
+  }
+}
